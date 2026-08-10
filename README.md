@@ -1,1 +1,1 @@
-creating a rag cli with langchain
+Creating simple RAG with local LLM
