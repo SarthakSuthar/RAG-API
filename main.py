@@ -1,11 +1,12 @@
 from fastapi import FastAPI
 
-from router import router
+from router import doc_router, que_router
 
 app = FastAPI()
 
 
-app.include_router(router)
+app.include_router(doc_router)
+app.include_router(que_router)
 
 
 @app.get("/health")
